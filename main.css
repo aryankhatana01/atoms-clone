@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;200&display=swap');
+
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+    max-width: 1900px;
+    margin: 0 auto;
+}
+
+.news-banner {
+    background: #222222;
+    align-items: center;
+    display: grid;
+}
+
+.banner-text {
+    text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8rem;
+}
+
+header {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+
+.primary-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    gap: 2rem;
+    font-family: inherit;
+}
+
+.sec-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    font-family: inherit;
+    /* gap: 2rem; */
+}
+
+.sec-nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.shoe-quiz {
+    background-color: rgb(234, 239, 251);
+    padding: 0.4rem;
+    padding-left: 0.68rem;
+    padding-right: 0.68rem;
+    border-radius: 1rem;
+    border-color: #74a7ff;
+    color: rgb(79, 118, 218);
+    border-style: solid;
+    border-color: rgb(222, 238, 240);
+    font-family: inherit;
+}
+
+.main-text {
+    font-family: "EB Garamond";
+    font-weight: 400;
+    font-size: 5rem;
+    line-height: 0.9;
+    width: 33%;
+    align-items: center;
+    margin: 0;
+    text-align: left;
+    letter-spacing: -.01rem;
+}
+
+.hero-main {
+    background-color: hsl(0 0% 95%);
+    padding-left: 3rem;
+    padding-right: 3rem;
+    width: 88%;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.container-main {
+    padding-top: 3rem;
+    padding-bottom: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+._image_12xku_28 {
+    height: 20rem;
+    width: 20rem;
+}
+
+.shop-button {
+    width: 25%;
+}
+
+.shop-button p {
+    text-align: center;
+}
+
+.button_ {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.btn {
+    background-color: #C1F651;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 2rem;
+}
+
+/* Animation start*/
+._image_12xku_28 {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+._image_12xku_28 {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+/* Animation end */
+
+.sec-hero {
+    background-color: #ECFFC3;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    width: 88%;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 84px;
+}
+
+.sec-text {
+    font-family: "EB Garamond";
+    font-weight: 200;
+    font-size: 3rem;
+}
+
+.container-sec {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.supporters {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+}
+
+.info-sec {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 84px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid-info {
+    width: 30%;
+}
+
+.heading-info {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.subheading-info {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.light-text {
+    font-family: "EB Garamond";
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.video-mask {
+    border-radius: 20px;
+    overflow: hidden;
+    height: 50vw;
+    /* box-shadow: 0 19px 51px 0 rgba(0,0,0,0.16), 0 14px 19px 0 rgba(0,0,0,0.07); */
+    /* position: relative; */
+}
