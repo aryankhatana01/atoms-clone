@@ -295,7 +295,7 @@ a {
     padding-left: 3rem;
     padding-right: 3rem;
     margin-top: 84px;
-    margin-bottom: 84px;
+    /* margin-bottom: 84px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -310,5 +310,74 @@ a {
 
 .atoms-digi-gift p {
     margin-bottom: 2rem;
+}
+/* ##########New Section End#########*/
+
+
+/* ##########New Section Start#########*/
+.philosophy {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 84px;
+}
+
+.philosophy  h2 {
+    font-weight: 200;
+    font-size: 2rem;
+}
+/* ##########New Section End#########*/
+
+
+/* ##########New Section Start#########*/
+.gallery {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 84px;
+    display: flex;
+    gap: 2rem;
+}
+
+._image_12g14_7 {
+    height: 50rem;
+    width: 36rem;
+    border-radius: 20px;
+}
+
+.big-card {
+    width: 100%;
+    background-color: hsl(0 0% 95%);
+    border-radius: 20px;
+}
+
+._image_19tv1_57_ {
+    margin: auto auto;
+    display: block;
+    height: 550px;
+    width: 450px;
+}
+
+.info-container{
+    padding: 2rem;
+}
+
+.card-text {
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.desc {
+    font-size: 1rem;
+    font-weight: 200;
+    margin: 0;
+    width: 60%;
+}
+
+.desc p {
+    color: #545454;
 }
 /* ##########New Section End#########*/
