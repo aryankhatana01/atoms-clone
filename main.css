@@ -226,3 +226,54 @@ a {
     /* box-shadow: 0 19px 51px 0 rgba(0,0,0,0.16), 0 14px 19px 0 rgba(0,0,0,0.07); */
     /* position: relative; */
 }
+
+/* #########Show Cards Start##########*/
+.shoe-cards {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 84px;
+}
+
+.shoe-cards h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+._image_19tv1_57 {
+    height: 250px;
+    width: 200px;
+}
+
+.card-container {
+    background-color: hsl(0 0% 95%);
+    width: 20%;
+    border-radius: 20px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.card-info {
+    padding: 2rem;
+}
+
+.card-info p {
+    margin: 0;
+}
+
+.pricing {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing p {
+    color: rgb(111, 111, 111);
+    margin: 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+/* ########Show Cards End##########*/
