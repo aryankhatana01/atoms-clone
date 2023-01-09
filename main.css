@@ -25,6 +25,10 @@ body {
     background: #222222;
     align-items: center;
     display: grid;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999999999;
 }
 
 .banner-text {
@@ -38,12 +42,22 @@ body {
 header {
     padding-left: 3rem;
     padding-right: 3rem;
-    margin-top: 0.8rem;
+    /* margin-top: 0.8rem; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
+}
+
+/* Creating the Navbar Sticky */
+header {
+    box-sizing: border-box;
+    position: sticky;
+    top: 40.59px;
+    left: 0;
+    z-index: 9999999999;
+    width: 100%;
 }
 
 .primary-nav ul {
